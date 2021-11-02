@@ -1,0 +1,190 @@
+* {
+  box-sizing: 20px
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+.header {
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.header h1 {
+  display: inline-block;
+  font-size: 40px;
+}
+
+
+
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.header div ul {
+  list-style-type: none;
+}
+
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+  text-decoration: underline;
+
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  text-decoration: underline;
+}
+  
+.hero {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../nathan-da-silva-k-rKfqSm4L4-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.About-Me {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+.Work {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+
+
+.About-Me img {
+  max-height: 250px;
+}
+
+.Work img {
+  max-height: 300px;
+  width: 350px;
+}
+
+.About-Me h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.Work h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.footer h3 {
+  display: inline-block;
+  font-size: 40px;
+}
+
+.footer div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+.footer div ul {
+  list-style-type: none;
+}
+
+.footer div ul li {
+  display: inline-block;
+  margin-left: 25px;
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 992px) {
+  div.header  {
+    width: 100%;
+    background: #772014;
+    font-size: 10px;
+
+  }
+}
+
+@media screen and (max-width: 992px) {
+div.content{
+ background: #59adc2;
+ width: 100%;
+ font-size: 10px;
+}
+div.About-Me{
+background: #772014;
+ width: 100%;
+ font-size: 10px;
+
+}
+div.Work{
+  background: #c54d3e;
+ width: 100%;
+ font-size: 10px;
+
+}
+}
+
+@media screen and (max-width: 992px) {
+  div.footer {
+    width: 100%;
+    background: #772014;
+    font-size: 10px;
+    }
+  }
